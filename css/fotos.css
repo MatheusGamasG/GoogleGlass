@@ -1,0 +1,94 @@
+ul#list {
+    width:800px;
+    margin:0px auto auto 100px;
+    padding: 50px;
+    overflow:hidden;
+    list-style:none;
+}
+
+ul#list li {float:left;
+    width:200px; height:200px;
+    margin:10px;
+    border:5px solid rgb(250, 250, 250);
+    background-color:white;
+    box-shadow:1px 1px 4px rgba(0,0,0,0.5);
+}
+ul#list li:hover {
+    transform:scale(1.5);
+    transition: all 0.2s ease-in;
+}
+
+ul#list li#foto01 {
+    background: url("../imagens/galeria-01.jpg") no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    background-color:white;
+}
+ul#list li#foto01:hover{
+    background-position:0px 0px;
+    background-size:200px 200px;
+}
+ul#list li#foto02 {
+    background: url("../imagens/galeria-02.jpg") no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    background-color:white;
+}
+ul#list li#foto02:hover{
+    background-position:0px 0px;
+    background-size:200px 200px;
+}
+
+ul#list li#foto03 {
+    background: url("../imagens/galeria-03.jpg") no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    background-color:white;
+}
+ul#list li#foto03:hover{
+    background-position:0px 0px;
+    background-size:200px 200px;
+}
+
+ul#list li#foto04 {
+    background: url("../imagens/galeria-04.jpg") no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    background-color:white;
+}
+ul#list li#foto04:hover{
+    background-position:0px 0px;
+    background-size:200px 200px;
+}
+
+ul#list li#foto05 {
+    background: url("../imagens/galeria-05.jpg") no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    background-color:white;
+}
+ul#list li#foto05:hover{
+    background-position:0px 0px;
+    background-size:200px 200px;
+}
+
+ul#list li#foto06 {
+    background: url("../imagens/galeria-06.jpg") no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    background-color:white;
+}
+ul#list li#foto06:hover{
+    background-position:0px 0px;
+    background-size:200px 200px;
+}
+
+ul#list li span {opacity:0;
+    background-color:rgba(0,0,0,0.3);
+    color:white;
+    margin:5px 5px 5px 5px;
+    line-height:370px;
+    font-size:medium;
+    }
+
+ul#list li:hover span {opacity:1;}
